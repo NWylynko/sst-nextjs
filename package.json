@@ -1,8 +1,11 @@
 {
-  "name": "sst-nextjs",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@my-project/core",
+  "version": "0.0.0",
+  "private": true,
   "repository": "git@github.com:NWylynko/sst-nextjs.git",
   "author": "Nick Wylynko <nick.wylynko@navitas.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "app"
+  ]
 }
