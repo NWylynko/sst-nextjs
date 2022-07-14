@@ -5,7 +5,23 @@
   "repository": "git@github.com:NWylynko/sst-nextjs.git",
   "author": "Nick Wylynko <nick.wylynko@navitas.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "console": "sst console"
+  },
   "workspaces": [
     "app"
-  ]
+  ],
+  "devDependencies": {
+    "@serverless-stack/cli": "^1.4.0",
+    "@serverless-stack/resources": "^1.4.0",
+    "@tsconfig/node16": "^1.0.3",
+    "c8": "^7.11.3",
+    "typescript": "^4.7.4",
+    "vite-tsconfig-paths": "^3.5.0",
+    "vitest": "^0.18.0"
+  }
 }
