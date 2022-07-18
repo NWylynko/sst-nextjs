@@ -14,7 +14,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@serverless-stack/static-site-env": "^1.4.0",
+    "@serverless-stack/static-site-env": "^1.4.1",
     "@types/node": "18.0.4",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
