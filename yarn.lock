@@ -318,7 +318,49 @@
     "@pothos/core" "^3.11.0"
     graphql "^16.5.0"
 
-"@serverless-stack/resources@1.4.0", "@serverless-stack/resources@^1.4.0":
+"@serverless-stack/core@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/core/-/core-1.4.1.tgz#129af8ef19c64cd70d3ee877d3698cb512f3b9e7"
+  integrity sha512-Z3rAcZy+BOAv+3UXBAZ+wNF+YYkj2V5fwfs/SNu/Og0p9N4K/WoEcOAOwcy4xBS9NF6SaJQT7dapMeouszWVBA==
+  dependencies:
+    "@rmp135/sql-ts" "^1.13.0"
+    "@serverless-stack/aws-lambda-ric" "^2.0.13"
+    "@trpc/server" "^9.16.0"
+    acorn "^8.7.1"
+    acorn-walk "^8.2.0"
+    async-retry "^1.3.3"
+    aws-cdk "2.24.0"
+    aws-cdk-lib "2.24.0"
+    aws-sdk "^2.1110.0"
+    chalk "^4.1.0"
+    chokidar "^3.5.2"
+    ci-info "^3.3.0"
+    conf "^10.1.1"
+    constructs "^10.0.29"
+    cross-spawn "^7.0.3"
+    dendriform-immer-patch-optimiser "^2.1.0"
+    dotenv "^10.0.0"
+    dotenv-expand "^5.1.0"
+    esbuild "^0.14.11"
+    escodegen "^2.0.0"
+    express "^4.17.1"
+    fs-extra "^9.0.1"
+    immer "^9.0.7"
+    js-yaml "^4.1.0"
+    knex "^2.1.0"
+    knex-aurora-data-api-client "^1.8.0"
+    log4js "^6.3.0"
+    picomatch "^2.3.0"
+    remeda "^0.0.32"
+    typescript "^4.6.2"
+    uuid "^8.3.2"
+    ws "^8.6.0"
+    xstate "4.26.1"
+  optionalDependencies:
+    "@pothos/core" "^3.11.0"
+    graphql "^16.5.0"
+
+"@serverless-stack/resources@1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@serverless-stack/resources/-/resources-1.4.0.tgz#8d5b7f3b1142fa1c706ad0bad2ad98b1569970ba"
   integrity sha512-9Gf168N78T/QAV/+d32bdmDaDpqVL5zjWJJyKauWRp+5HIgvrf1LRvta7OTnKYbqzip+pr4S0seCDW/GAOOg4Q==
@@ -328,6 +370,28 @@
     "@aws-cdk/aws-apigatewayv2-integrations-alpha" "2.24.0-alpha.0"
     "@aws-cdk/aws-appsync-alpha" "2.24.0-alpha.0"
     "@serverless-stack/core" "1.4.0"
+    archiver "^5.3.0"
+    aws-cdk-lib "2.24.0"
+    chalk "^4.1.0"
+    constructs "^10.0.29"
+    cross-spawn "^7.0.3"
+    fs-extra "^9.0.1"
+    glob "^7.1.7"
+    indent-string "^5.0.0"
+    zip-local "^0.3.4"
+  optionalDependencies:
+    graphql "^16.5.0"
+
+"@serverless-stack/resources@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/resources/-/resources-1.4.1.tgz#1a55160b915a151e02e06807e97f27b69a075202"
+  integrity sha512-mIIT3XYgJ4OZEdHSVQXwKzvNhGlQoYsLar0TzeUwpnV2pjYsVzhTOwtIVEMP+nEpqB310bpOG/Cqxl2euct0RA==
+  dependencies:
+    "@aws-cdk/aws-apigatewayv2-alpha" "2.24.0-alpha.0"
+    "@aws-cdk/aws-apigatewayv2-authorizers-alpha" "2.24.0-alpha.0"
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha" "2.24.0-alpha.0"
+    "@aws-cdk/aws-appsync-alpha" "2.24.0-alpha.0"
+    "@serverless-stack/core" "1.4.1"
     archiver "^5.3.0"
     aws-cdk-lib "2.24.0"
     chalk "^4.1.0"
