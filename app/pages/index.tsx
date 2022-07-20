@@ -1,7 +1,11 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo';
+import { trpc } from '../lib/trpc';
 
 const Home: NextPage = () => {
+
+  const { data } = trpc.hello.me.useQuery({ name: "next" })
+
   return (
     <>
       <NextSeo
@@ -9,7 +13,7 @@ const Home: NextPage = () => {
         description="A short description goes here."
       />
       <div>
-        <span>Hello World</span>
+        <span>{JSON.stringify(data, null, 2)}</span>
       </div>
     </>
   )
