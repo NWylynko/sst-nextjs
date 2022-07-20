@@ -27,5 +27,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - run: yarn
-    - run: yarn build
+    - name: Install Deps
+      run: yarn
+
+    - name: Build
+      uses: serverless/github-action@v3.1
+      with:
+        args: build
