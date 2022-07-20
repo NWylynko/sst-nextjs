@@ -5,9 +5,11 @@
     "dev": "sst-env -- next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@sls-next/lambda-at-edge": "^3.7.0",
     "next": "12.2.2",
     "next-seo": "^5.4.0",
     "react": "18.2.0",
@@ -18,7 +20,7 @@
     "@types/node": "18.0.4",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
-    "eslint": "8.19.0",
+    "eslint": "8.20.0",
     "eslint-config-next": "12.2.2",
     "typescript": "4.7.4"
   }
