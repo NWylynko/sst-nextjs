@@ -1396,7 +1396,7 @@
     "@pothos/core" "^3.11.0"
     graphql "^16.5.0"
 
-"@serverless-stack/resources@1.5.1", "@serverless-stack/resources@^1.4.0":
+"@serverless-stack/resources@1.5.1", "@serverless-stack/resources@^1.5.1":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@serverless-stack/resources/-/resources-1.5.1.tgz#d84b479467c637f6202982a373efda1d846b28c2"
   integrity sha512-IpicIWDsNY37FAe1BKyDaBJM3UCU4JYd+TjRh4hmYzsTDHGrAxpcceM9Zqxr+2M+fTBNyu23sN8nYm8HOxWyLQ==
