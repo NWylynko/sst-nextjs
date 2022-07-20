@@ -10,13 +10,14 @@
     "build": "sst build",
     "deploy": "sst deploy",
     "remove": "sst remove",
-    "console": "sst console"
+    "console": "sst console",
+    "typecheck": "tsc --noEmit"
   },
   "workspaces": [
     "app"
   ],
   "devDependencies": {
-    "@serverless-stack/cli": "^1.4.0",
+    "@serverless-stack/cli": "^1.5.1",
     "@serverless-stack/resources": "^1.5.1",
     "@tsconfig/node16": "^1.0.3",
     "c8": "^7.11.3",
