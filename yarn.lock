@@ -340,10 +340,10 @@
   optionalDependencies:
     graphql "^16.5.0"
 
-"@serverless-stack/static-site-env@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@serverless-stack/static-site-env/-/static-site-env-1.4.0.tgz#bae8c3d4b9a790c43fcd892460d802b030c80e23"
-  integrity sha512-k68MqxdVMr6Vq0JixP/qN5ErecU7SdDQ3LSc57DNye7RFz/9lkrD1FmWGUzjQcGjICfAiPe4g2/QXf67WJboDg==
+"@serverless-stack/static-site-env@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/static-site-env/-/static-site-env-1.5.1.tgz#c5226a428fe5fa3be6e0e22ccef81ab330f70a62"
+  integrity sha512-EekRMXQsXvG6yfwXzLLMMcieWl7nhf9zwbClxMLCVDoncSuk90BNbET4rt3wCiqMJDf8DE5QTlx3Jc1cCTmh1g==
   dependencies:
     cross-spawn "^7.0.3"
     fs-extra "^9.0.1"
@@ -1715,10 +1715,10 @@ eslint-visitor-keys@^3.3.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-eslint@8.19.0:
-  version "8.19.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.19.0.tgz#7342a3cbc4fbc5c106a1eefe0fd0b50b6b1a7d28"
-  integrity sha512-SXOPj3x9VKvPe81TjjUJCYlV4oJjQw68Uek+AM0X4p+33dj2HY5bpTZOgnQHcG2eAm1mtCU9uNMnJi7exU/kYw==
+eslint@8.20.0:
+  version "8.20.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.20.0.tgz#048ac56aa18529967da8354a478be4ec0a2bc81b"
+  integrity sha512-d4ixhz5SKCa1D6SCPrivP7yYVi7nyD6A4vs6HIAul9ujBzcEmZVM3/0NN/yu5nKhmO1wjp5xQ46iRfmDGlOviA==
   dependencies:
     "@eslint/eslintrc" "^1.3.0"
     "@humanwhocodes/config-array" "^0.9.2"
