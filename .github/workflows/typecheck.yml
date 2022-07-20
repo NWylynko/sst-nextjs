@@ -34,6 +34,3 @@ jobs:
 
       - name: Typecheck App
         run: cd app && yarn typecheck
-
-      - name: Build
-        run: yarn build --stage github-action
