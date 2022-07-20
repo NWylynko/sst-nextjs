@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sls-next/lambda-at-edge": "^3.7.0",
     "next": "12.2.2",
     "next-seo": "^5.4.0",
     "react": "18.2.0",
