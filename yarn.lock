@@ -1418,10 +1418,10 @@
   optionalDependencies:
     graphql "^16.5.0"
 
-"@serverless-stack/static-site-env@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@serverless-stack/static-site-env/-/static-site-env-1.4.0.tgz#bae8c3d4b9a790c43fcd892460d802b030c80e23"
-  integrity sha512-k68MqxdVMr6Vq0JixP/qN5ErecU7SdDQ3LSc57DNye7RFz/9lkrD1FmWGUzjQcGjICfAiPe4g2/QXf67WJboDg==
+"@serverless-stack/static-site-env@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/static-site-env/-/static-site-env-1.5.1.tgz#c5226a428fe5fa3be6e0e22ccef81ab330f70a62"
+  integrity sha512-EekRMXQsXvG6yfwXzLLMMcieWl7nhf9zwbClxMLCVDoncSuk90BNbET4rt3wCiqMJDf8DE5QTlx3Jc1cCTmh1g==
   dependencies:
     cross-spawn "^7.0.3"
     fs-extra "^9.0.1"
