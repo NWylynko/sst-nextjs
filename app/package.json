@@ -11,7 +11,7 @@
   "dependencies": {
     "@sls-next/lambda-at-edge": "^3.7.0",
     "@trpc/client": "^10.0.0-alpha.38",
-    "@trpc/next": "^10.0.0-alpha.38",
+    "@trpc/next": "^10.0.0-alpha.41",
     "@trpc/react": "^10.0.0-alpha.38",
     "@trpc/server": "^10.0.0-alpha.38",
     "cookie": "^0.5.0",
