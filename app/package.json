@@ -26,7 +26,7 @@
   "devDependencies": {
     "@serverless-stack/static-site-env": "^1.5.1",
     "@types/cookie": "^0.5.1",
-    "@types/node": "18.6.1",
+    "@types/node": "18.7.18",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "@types/styled-components": "^5.1.25",
