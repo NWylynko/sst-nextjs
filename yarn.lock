@@ -1617,12 +1617,10 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@trpc/client@^10.0.0-alpha.38":
-  version "10.0.0-alpha.38"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.0.0-alpha.38.tgz#c9b351e16ebe520328b3d2ecc456cbd9375ea520"
-  integrity sha512-4Mi2qoHlhhAO+nxPQwx9WU37BTMDzjLddlTFWvSJJYrkOkNt79kpLNFjuKBmBAla8M8ItO9dhaW7b9cA/AI0Cw==
-  dependencies:
-    "@babel/runtime" "^7.9.0"
+"@trpc/client@^10.4.1":
+  version "10.4.1"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.4.1.tgz#1bbd997fb68cd08cfe4ddf35893e5c89b546f0a3"
+  integrity sha512-t6GJaFf3U8xPJh4IhgsRcV+JMl/hnPA+mMzpOW+jHAEw/8hhqI8cnr/+fKvTMx5jINE8yttCRYDPOnQ+U49EAQ==
 
 "@trpc/next@^10.0.0-alpha.41":
   version "10.0.0-alpha.41"
